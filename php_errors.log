@@ -1,0 +1,19 @@
+[17-Feb-2015 13:50:39 UTC] PHP Notice:  Undefined index: query in /home/ubuntu/workspace/api/index.php on line 6
+[17-Feb-2015 13:50:48 UTC] PHP Notice:  Undefined index: query in /home/ubuntu/workspace/api/index.php on line 6
+[17-Feb-2015 13:51:00 UTC] PHP Notice:  Undefined index: query in /home/ubuntu/workspace/api/index.php on line 6
+[17-Feb-2015 13:57:11 UTC] PHP Notice:  Undefined index: query in /home/ubuntu/workspace/api/index.php on line 6
+[19-Feb-2015 13:24:21 UTC] PHP Notice:  Undefined index: name in /home/ubuntu/workspace/api/index.php on line 13
+[19-Feb-2015 13:24:51 UTC] PHP Notice:  Undefined index: name in /home/ubuntu/workspace/api/index.php on line 13
+[19-Feb-2015 13:30:39 UTC] PHP Notice:  Undefined index: minplayers in /home/ubuntu/workspace/api/index.php on line 13
+[19-Feb-2015 13:30:39 UTC] PHP Notice:  Undefined index: maxplayers in /home/ubuntu/workspace/api/index.php on line 14
+[19-Feb-2015 13:30:39 UTC] PHP Notice:  Undefined index: weight in /home/ubuntu/workspace/api/index.php on line 15
+[19-Feb-2015 13:33:13 UTC] PHP Notice:  Undefined index: weight in /home/ubuntu/workspace/api/index.php on line 15
+[19-Feb-2015 13:34:52 UTC] PHP Notice:  Undefined index: weight in /home/ubuntu/workspace/api/index.php on line 15
+[19-Feb-2015 13:34:52 UTC] PHP Notice:  Undefined index: minrating in /home/ubuntu/workspace/api/index.php on line 16
+[19-Feb-2015 13:45:53 UTC] PHP Notice:  Undefined index: weight in /home/ubuntu/workspace/api/index.php on line 15
+[19-Feb-2015 13:45:53 UTC] PHP Notice:  Undefined index: minrating in /home/ubuntu/workspace/api/index.php on line 16
+[19-Feb-2015 13:45:59 UTC] PHP Notice:  Undefined index: weight in /home/ubuntu/workspace/api/index.php on line 15
+[19-Feb-2015 13:45:59 UTC] PHP Notice:  Undefined index: minrating in /home/ubuntu/workspace/api/index.php on line 16
+[19-Feb-2015 13:52:11 UTC] PHP Notice:  Undefined index: minaverage in /home/ubuntu/workspace/api/index.php on line 14
+[19-Feb-2015 13:52:12 UTC] PHP Notice:  Undefined variable: minrank in /home/ubuntu/workspace/api/index.php on line 17
+[19-Feb-2015 13:52:12 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/api/index.php on line 22
