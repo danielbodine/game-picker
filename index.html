@@ -7,14 +7,26 @@
 </head>
 <body>
 
-<form name='myForm'>
+<form name='preferences'>
 
    Players: <input type='text' id='players' /> <br />
-   Minaverage: <input type='text' id='minaverage' /> <br />
+   Max Play Time (minutes): <input type='text' id='maxtime' /> <br />
+   Minimum Average Score: <input type='text' id='minaverage' /> <br />
  
-   <input type='button' onclick='ajaxFunction()' value='Find Games'/>
+   <input type='button' onclick='ajax()' value='Find Games'/>
    
 </form>
-<div id='ajaxDiv'>Your result will display here</div>
+
+<!-- This part could be better-->
+<div id='result0'> </div>
+<div id='result1'> </div>
+<div id='result2'> </div>
+<div id='result3'> </div>
+<div id='result4'> </div>
+<div id='result5'> </div>
+<div id='result6'> </div>
+<div id='result7'> </div>
+<div id='result8'> </div>
+<div id='result9'> </div>
 </body>
 </html>

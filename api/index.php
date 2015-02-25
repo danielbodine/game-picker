@@ -7,14 +7,20 @@ $dbhandle = new PDO("sqlite:bgg.sqlite") or die("Failed to open DB");
 
 //initial variables
 $players = 3;
-$minaverage = 5;
+$minaverage = 0;
+$maxtime = 180;
 
 //set the variables from the get request
 $players =  htmlspecialchars($_GET["players"]);
 $minaverage =  htmlspecialchars($_GET["minaverage"]);
+$maxtime =  htmlspecialchars($_GET["maxtime"]);
 
 //build the query
-$query = "SELECT * from games where minplayers<=" . $players . " and maxplayers>=" .$players . " and average>=" . $minaverage ." order by random() limit 0, 10";
+
+$query = "SELECT objectname from games where minplayers<=" . $players . " and maxplayers>=" .$players . 
+    " and average>=" . $minaverage .
+    " and playingtime<=" . $maxtime .
+    " order by random() ASC limit 0, 10";
 
 //run the query and output results
 $statement = $dbhandle->prepare($query);

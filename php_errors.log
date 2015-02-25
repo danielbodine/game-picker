@@ -17,3 +17,5 @@
 [19-Feb-2015 13:52:11 UTC] PHP Notice:  Undefined index: minaverage in /home/ubuntu/workspace/api/index.php on line 14
 [19-Feb-2015 13:52:12 UTC] PHP Notice:  Undefined variable: minrank in /home/ubuntu/workspace/api/index.php on line 17
 [19-Feb-2015 13:52:12 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/api/index.php on line 22
+[25-Feb-2015 20:38:36 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/api/index.php on line 27
+[25-Feb-2015 20:38:40 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/api/index.php on line 27
