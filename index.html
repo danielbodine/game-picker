@@ -1,18 +1,20 @@
-<!doctype html>
 <html>
-    <body>
-        <h1>Game Searcher</h1>
-        <form action="api/index.php" method="GET">
-            Number of Players:
-            <br>
-            <input type="value" name="players">
-            <br>
-            Minimum Average
-            <br>
-            <input type="value" name="minaverage">
-            <br><br>
-            <input type="submit" value="Submit">
-                
-        </form>
-    </body>
+    
+<head>
+    <title> Find Fun Games</title>
+    <script src="getgames.js"></script>
+    <h1>Find Fun Games</h1>
+</head>
+<body>
+
+<form name='myForm'>
+
+   Players: <input type='text' id='players' /> <br />
+   Minaverage: <input type='text' id='minaverage' /> <br />
+ 
+   <input type='button' onclick='ajaxFunction()' value='Find Games'/>
+   
+</form>
+<div id='ajaxDiv'>Your result will display here</div>
+</body>
 </html>

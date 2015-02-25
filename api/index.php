@@ -15,7 +15,6 @@ $minaverage =  htmlspecialchars($_GET["minaverage"]);
 
 //build the query
 $query = "SELECT * from games where minplayers<=" . $players . " and maxplayers>=" .$players . " and average>=" . $minaverage ." order by random() limit 0, 10";
-echo json_encode($query);
 
 //run the query and output results
 $statement = $dbhandle->prepare($query);
