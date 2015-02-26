@@ -8,16 +8,19 @@
 <body>
 
 <form name='preferences'>
-
-   Players: <input type='text' id='players' /> <br />
-   Max Play Time (minutes): <input type='text' id='maxtime' /> <br />
-   Minimum Average Score: <input type='text' id='minaverage' /> <br />
- 
+    
+    <table>
+    <tr><td>Players:</td> <td><input type='number' id='players' required/></td> </tr>
+    <tr><td>Max Play Time (minutes):</td> <td><input type='number' id='maxtime' required /></td> </tr>
+    <tr><td>Minimum Average Score:</td> <td><input type='number' min = -1 max = 11 id='minaverage' required/></td> </tr>
+    </table>
+    <br>
    <input type='button' onclick='ajax()' value='Find Games'/>
    
-</form>
+</form> 
 
-<!-- This part could be better-->
+<!-- This part could be better probably-->
+
 <div id='result0'> </div>
 <div id='result1'> </div>
 <div id='result2'> </div>
@@ -28,5 +31,6 @@
 <div id='result7'> </div>
 <div id='result8'> </div>
 <div id='result9'> </div>
+
 </body>
 </html>
